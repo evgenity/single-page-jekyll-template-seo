@@ -7,7 +7,7 @@ The methodology behind this is "don't wait, publish a landing page with descript
 # Deployment strategy
 - [ ] Find a crazy idea
 - [ ] Register crasy-idea.com at https://namecheap.com
-- [ ] Fork this repo `git fork https://github.com/evgenity/single-page-jekyll-template-seo crazy-idea`
+- [ ] Fork this repo `git clone https://github.com/evgenity/single-page-jekyll-template-seo crazy-idea`
 - [ ] edit `_config.yml` where needed
 - [ ] install jekyll by `gem install jekyll`
 - [ ] `jekyll build`, your site will be built at `_site` folder
@@ -19,3 +19,6 @@ The methodology behind this is "don't wait, publish a landing page with descript
 - [ ] submit your site for indexing on https://www.google.com/webmasters/tools/ and more
 - [ ] add google analytics https://analytics.google.com
 - [ ] start developing an MVP for your crazy idea; meanwhile google will index your keywords - check google analytics dashboard
+
+# Publishing site
+- [ ] To learn how to setup a convientient git deployment see: https://www.digitalocean.com/community/tutorials/how-to-set-up-automatic-deployment-with-git-with-a-vps
