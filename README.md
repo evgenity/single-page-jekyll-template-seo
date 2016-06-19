@@ -7,7 +7,7 @@ The methodology behind this is "don't wait, publish a landing page with descript
 # Deployment strategy
 - [ ] Find a crazy idea
 - [ ] Register crasy-idea.com at https://namecheap.com
-- [ ] Fork this repo `git clone https://github.com/evgenity/single-page-jekyll-template-seo crazy-idea`
+- [ ] Clone this repo `git clone https://github.com/evgenity/single-page-jekyll-template-seo crazy-idea` or fork it
 - [ ] edit `_config.yml` where needed
 - [ ] install jekyll by `gem install jekyll`
 - [ ] `jekyll build`, your site will be built at `_site` folder
@@ -22,3 +22,9 @@ The methodology behind this is "don't wait, publish a landing page with descript
 
 # Publishing site
 - [ ] To learn how to setup a convientient git deployment see: https://www.digitalocean.com/community/tutorials/how-to-set-up-automatic-deployment-with-git-with-a-vps
+
+# To fork your own repo 
+1. create a new repo
+2. clone it on your computer
+3. add the original repos as upstream source; `git remote add upstream [url]
+4. fetch and merge upstream: git fetch upstream & git merge upstream/master
